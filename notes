@@ -1,0 +1,14 @@
+import 'package:http/http.dart' as http;
+But the problem is — other packages (or even your own code) might also have a function named get() or post().
+That would cause confusion or conflicts.
+So we use the alias http. to make it crystal clear where it’s coming from:
+
+
+🌟 What is a FutureBuilder?
+FutureBuilder is a Flutter widget that automatically waits for async data (like API calls, Firebase, file loading, etc.)
+and rebuilds the UI when that data arrives.
+Think of it like this:
+“Hey Flutter, go fetch some data. While waiting, show a loading spinner.
+When data arrives, show it. If something fails, show an error.”
+
+We use the http package in Flutter when calling an API because it allows our app to send and receive data over the internet — using the HTTP protocol (like GET, POST, PUT, DELETE).
