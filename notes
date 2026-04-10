@@ -12,3 +12,10 @@ Think of it like this:
 When data arrives, show it. If something fails, show an error.”
 
 We use the http package in Flutter when calling an API because it allows our app to send and receive data over the internet — using the HTTP protocol (like GET, POST, PUT, DELETE).
+
+you cannot just paste raw JSON into Flutter and expect it to work. You need to convert it into Dart objects first.
+
+EXAMPLE 2
+we saw if pluggin is not mkaing model of the JSON data, then how we can make model by ourselves
+EXAMPLE 3
+covers a new condition of working with APIs, its when we have complex JSON data, by complex JSON it means a JSON with so many nested JSON objects, also in this eg we will be making model through pluggins
